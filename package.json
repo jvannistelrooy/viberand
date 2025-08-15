@@ -1,0 +1,23 @@
+{
+  "name": "viberand",
+  "version": "1.0.0",
+  "description": "Generate random integer using OpenAI GPT-5 nano",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest"
+  },
+  "keywords": ["openai", "random", "integer"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.0"
+  }
+}
